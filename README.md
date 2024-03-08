@@ -1,7 +1,7 @@
 # PassGen5327
 
 ## Introduction
-This project is a Python script that aims to create a limited number of combinations. 
+This project is a Python script that aims to create a limited number of combinations. The creator is not liable for the misuse of this tool. It is to be used for educational purposes only.
 
 ## File Structure
 - `MainCode.py`: Python script for generating passwords.
