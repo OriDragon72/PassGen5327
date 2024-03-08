@@ -1,22 +1,3 @@
-#Function selects "i" line from selected text file
-
-def DATA(filePath, lineNum):
-    with open(filePath, 'r') as file:
-        for i, line in enumerate(file, start=1):
-            if i == lineNum:
-                return line.strip() 
-    return "Line number not found in 'data.txt'"
-
-#Function counts the number of lines in the selected text file
-
-def count_lines(filename):
-  with open(filename, 'r') as file:
-      line_count = 0
-      for line in file:
-          line_count += 1
-      return line_count
-
-#Main function
 ##d = amount of iterations
 ##j = name of DataFile
 
@@ -80,4 +61,4 @@ if __name__ == "__main__":
 
   num = int(input("Answer[int]: "))
   PassGen(num, "data.txt")
-
+    
