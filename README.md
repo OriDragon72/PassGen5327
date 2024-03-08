@@ -6,8 +6,10 @@ This project is a Python script that aims to create a limited number of combinat
 ## File Structure
 - `MainCode.py`: Python script for generating passwords.
 - `data.txt`: A text file containing the data used for password generation.
-- `ieDATA.txt`: A text file containing an example data set for password generation.
+- `IeDATA.txt`: A text file containing an example data set for password generation.
 - `passwordFile.txt`: A text file that will contain the generated passwords.
+- `LICENSE`: A text file that contains the license.
+- `README.md`: A text file that has the documentation.
 
 ## Usage
 1. Run the `MainCode.py` script.
